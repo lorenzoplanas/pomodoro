@@ -1,0 +1,52 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, 
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr,th, td 							
+                  {margin:0; padding:0; border:0; outline:0; font-size:100%; 
+                  vertical-align:baseline; background:transparent;}
+ol, ul 				    {list-style:none;}
+blockquote, q 		{quotes:none;}
+blockquote:before, 
+blockquote:after,
+q:before, q:after {content: ''; content:none;}
+:focus 						{outline:0;} /* remember to define focus styles! */
+ins 							{text-decoration:none;} /* remember to highlight inserts somehow! */
+del 						  {text-decoration:line-through;}
+table 					  {border-collapse:collapse; border-spacing:0; 
+                  table-layout:fixed;} 
+                  /* tables still need 'cellspacing="0"' */
+
+body 						  {font-family:'Helvetica', 'Arial', sans-serif; 
+                  font-size:62.5%; line-height:2em; height:100%;
+                  background:#ccc;}
+pre               {background-color:#eee; padding:10px; font-size:11px;}
+div#main          {float:left; width:100%; background:#ccc;}
+.actions          {float:right; margin:2em 6em;}
+.actions a        {float:left; font-size:1.2em; height:2em; line-height:2em;
+                  margin-right:1em; padding:.3em .8em;
+                  background:#fff; color:#333; text-decoration:none;
+                  border-radius:.6em;}
+ul.tasks,
+ul.fires          {float:left; width:100%;}
+.tasks li,
+.fires li         {float:left; width:90%; height:5em; line-height:5em;
+                  font-size:1.2em; padding:0 2em;
+                  margin:1em 1em auto; background:#fff; border-radius:1em;}
+.tasks li .name,
+.fires li .name   {font-size:1.6em;}
+.pomodoros        {float:right; width:18em; height:5em; line-height:5em;}
+.pomodoros i,
+.pomodoros a.clear {float:left; 
+                  background:url(/img/blank_tomato.png) 1.2em 1.2em;
+                  width:1.2em; height:1.2em; line-height:5em;
+                  margin-left:1em; }
+.pomodoros b,
+.pomodoros a.full {float:left; width:1.2em; height:5em; line-height:5em; 
+                  margin-left:1em;
+                  background:url(/img/red_tomato.png) 0em 3em;}
+.task .buttons    {float:right; height:5em; line-height:5em;}
+.task .buttons a  {float:left; font-size:1.2em; height:2em; line-height:2em;
+                  margin:1em .4em 1em 0; padding:0em 1em;
+                  background:#ccc; color:#333; text-decoration:none;
+                  border-radius:.6em;}
